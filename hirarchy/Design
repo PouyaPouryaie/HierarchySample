@@ -1,0 +1,97 @@
+Static
+final
+field
+Method
+Class can interFace
+	1- CloneAble
+	2- CompareAble 
+	3- Serialization
+	4- CopyAble
+
+Test
+	1- test static can abstract or not
+
+Abstract Mammal{
+	final name(String)
+	Age(int)
+	height(int)
+	weight(int)
+	final legs(int)
+	eye(int)
+	ispregnant(bool)
+	final ageRange(Enum)
+	private countCompare
+	private countClone
+	private copyAble
+	static method countCompare
+	static method countClone
+	static method countCopyAble
+	abstract method talk
+	abstract method eat
+	abstract method walk
+
+}
+
+Abstract Human(Mammal){
+	final isSex(bool)
+	think(bool)
+	abstract method doSex
+	method speak
+	method work(Enum)
+	private countCompare
+	private countClone
+	private copyAble
+	static method countCompare
+	static method countClone
+	static method countCopyAble
+
+}
+
+Abstract Man(Human){
+	final static dick = true
+	abstract method sizeOfDick
+	private countCompare
+	private countClone
+	private copyAble
+	static method countCompare
+	static method countClone
+	static method countCopyAble
+
+}
+
+Adult(Man){
+	is_marride(bool)
+	is_child(bool)
+	method talk
+	method eat
+	method walk
+	static isSex = true	
+	method work
+	method sizeOfDick
+	private countCompare
+	private countClone
+	private copyAble
+	static method countCompare
+	static method countClone
+	static method countCopyAble
+}
+
+Child(Man){
+	is_broOrSis(bool)
+	is_parent(bool)
+	static isSex = false
+	method talk
+	method eat
+	method walk
+	method work
+	method sizeOfDick
+	private countCompare
+	private countClone
+	private copyAble
+	static method countCompare
+	static method countClone
+	static method countCopyAble
+}
+Abstract Animal(Mammal){}
+Wild(Animal)
+Native(Animal)
